@@ -21,7 +21,6 @@ REC = RAIZ / "scripts" / "recursos"
 SALIDA = RAIZ / "assets"
 METRICAS = json.loads((REC / "metricas.json").read_text())
 ICONOS = json.loads((REC / "iconos.json").read_text())
-RETRATO = json.loads((REC / "retrato.json").read_text())
 USUARIO = "JordanAragon"
 W = 1200  # ancho base de todas las piezas
 
@@ -169,37 +168,33 @@ def hero(tema):
     t = escribir(c, x, 92, f"{D.PROMPT} whoami", 0.2, p["suave"], p["bg"], tam=15)
     c.texto(x, 196, D.NOMBRE, peso=800, tam=88, ls=-3.5, clase="f", estilo=f"animation-delay:{t+.05:.2f}s")
     c.texto(x, 244, D.TITULO, peso=600, tam=24, ls=-0.4, clase="f", estilo=f"animation-delay:{t+.2:.2f}s")
-    c.texto(x + ancho(D.TITULO, "I", 600, 24, -0.4) + 10, 244, f"· {D.TITULO_2}", peso=400, tam=24, ls=-0.4,
-            color=p["suave"], clase="f", estilo=f"animation-delay:{t+.28:.2f}s")
-    for i, linea in enumerate(partir(D.TITULAR, 560, "I", 400, 19)):
-        c.texto(x, 296 + i * 30, linea, tam=19, color=p["suave"], clase="f", estilo=f"animation-delay:{t+.4+i*.06:.2f}s")
+    c.texto(x, 276, D.TITULO_2, peso=400, tam=24, ls=-0.4, color=p["suave"], clase="f", estilo=f"animation-delay:{t+.28:.2f}s")
+    for i, linea in enumerate(partir(D.TITULAR, 520, "I", 400, 18)):
+        c.texto(x, 324 + i * 28, linea, tam=18, color=p["suave"], clase="f", estilo=f"animation-delay:{t+.4+i*.06:.2f}s")
     # estado
-    yb = 404
+    yb = 412
     c.add(f'<g class="f" style="animation-delay:{t+.6:.2f}s">'
           f'<circle cx="{x+6}" cy="{yb-5}" r="5" fill="{p["acento"]}" class="o"/><circle cx="{x+6}" cy="{yb-5}" r="5" fill="{p["acento"]}"/></g>')
     c.texto(x + 22, yb, D.ESTADO, peso=500, tam=15, clase="f", estilo=f"animation-delay:{t+.6:.2f}s")
     c.texto(x + 22 + ancho(D.ESTADO, "I", 500, 15) + 12, yb, D.UBICACION, fam="M", tam=14, color=p["suave"], clase="f",
             estilo=f"animation-delay:{t+.66:.2f}s")
-    c.texto(x, 436, f"→ {D.SITIO}", fam="M", peso=500, tam=14, color=p["texto"], clase="f", estilo=f"animation-delay:{t+.72:.2f}s")
-    # retrato en puntos: aparece en anillos desde la cara
-    n = RETRATO["n"]
-    lado, x0, y0 = 430, W - 430 - 40, 25
-    paso = lado / n
-    cx, cy = n * 0.55, n * 0.42
-    anillos = 14
-    for k in range(anillos):
-        c.css.append(f".r{k}{{animation-delay:{.15 + k*0.07:.2f}s}}")
-    puntos = []
-    for i, j, lum in RETRATO["pts"]:
-        v = lum if tema == "oscuro" else (1 - lum)
-        r = max(0.35, (v ** (1.0 if tema == "oscuro" else 0.9)) * paso * 0.56)
-        k = min(anillos - 1, int(math.hypot(i - cx, j - cy) / (n * 0.62) * anillos))
-        puntos.append(f'<circle class="p r{k}" cx="{x0 + (i+.5)*paso:.1f}" cy="{y0 + (j+.5)*paso:.1f}" r="{r:.2f}"/>')
-    c.add(f'<g fill="{p["punto"]}">{"".join(puntos)}</g>')
-    # desvanecer la base del retrato
-    c.add(f'<defs><linearGradient id="v" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{p["bg"]}" stop-opacity="0"/>'
-          f'<stop offset="1" stop-color="{p["bg"]}"/></linearGradient></defs>'
-          f'<rect x="{x0-4}" y="{y0+lado-90}" width="{lado+8}" height="{480-(y0+lado-90)-1}" fill="url(#v)"/>')
+    c.texto(x, 442, f"→ {D.SITIO}", fam="M", peso=500, tam=14, color=p["texto"], clase="f", estilo=f"animation-delay:{t+.72:.2f}s")
+    # foto: panel derecho que se funde con el fondo de la tarjeta
+    foto = base64.b64encode((REC / "foto-hero.webp").read_bytes()).decode()
+    fx, fw, fh = W - 440, 440, 480
+    c.add(f'<defs><clipPath id="marco"><rect x="1" y="1" width="{W-2}" height="{fh-2}" rx="23"/></clipPath>'
+          f'<linearGradient id="fh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/>'
+          f'<stop offset=".42" stop-color="#fff" stop-opacity="1"/></linearGradient>'
+          f'<linearGradient id="fv" x1="0" y1="0" x2="0" y2="1"><stop offset=".72" stop-color="#fff" stop-opacity="1"/>'
+          f'<stop offset="1" stop-color="#fff" stop-opacity=".35"/></linearGradient>'
+          f'<mask id="mf"><rect x="{fx}" y="0" width="{fw}" height="{fh}" fill="url(#fh)"/></mask>'
+          f'<mask id="mv"><rect x="{fx}" y="0" width="{fw}" height="{fh}" fill="url(#fv)"/></mask></defs>'
+          f'<g clip-path="url(#marco)"><g mask="url(#mf)"><g mask="url(#mv)"><g class="foto">'
+          f'<image href="data:image/webp;base64,{foto}" x="{fx}" y="0" width="{fw}" height="{fh}" preserveAspectRatio="xMidYMid slice"/>'
+          f'</g></g></g></g>')
+    c.css.append(".foto{opacity:0;transform-box:fill-box;transform-origin:60% 40%;animation:fo 1.6s cubic-bezier(.2,.7,.2,1) .1s forwards}"
+                 "@keyframes fo{from{opacity:0;transform:scale(1.06)}to{opacity:1;transform:scale(1)}}"
+                 "@media (prefers-reduced-motion:reduce){.foto{animation:none;opacity:1}}")
     return c
 
 

@@ -11,5 +11,5 @@ Recursos en `scripts/recursos/`:
 
 - Inter y JetBrains Mono (licencia OFL, `LICENSE.txt`). Cada SVG lleva incrustadas solo las letras que usa.
 - Íconos de [Simple Icons](https://simpleicons.org) (CC0).
-- `retrato.json`: el retrato en puntos, sacado de la foto del portafolio.
+- `foto.jpg` (recorte de la foto) y `foto-hero.webp` (la versión que va en el encabezado, 880 × 960).
 - `metricas.json`: anchos de letra para medir y partir textos.
