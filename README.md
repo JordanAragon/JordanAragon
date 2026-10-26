@@ -1,104 +1,22 @@
-# Hola, soy Jordan 👋
+<a href="https://www.jordanco.club"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-oscuro.svg"><img alt="Jordan Aragon — Desarrollador de software · IA, automatización e infraestructura. Disponible para proyectos. Cali, Colombia." src="assets/hero-claro.svg" width="100%"></picture></a>
 
-### Web Developer | Cali, Colombia 🇨🇴
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/terminal-oscuro.svg"><img alt="Terminal: empecé arreglando computadores y redes; hoy hago webs, agentes de IA y automatizaciones. Ahora: líder técnico en Ocean Industries, construyendo AiDEN, operando Aragon Server y estudiando en la UNAD y el SENA." src="assets/terminal-claro.svg" width="100%"></picture>
 
-Estudiante de Ingeniería de Sistemas y Tecnólogo en Análisis y Desarrollo de Software, enfocado en crear soluciones digitales funcionales y adaptadas a diferentes necesidades.
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/servicios-oscuro.svg"><img alt="01 — Lo que hago: producto web, IA y agentes, automatización e infraestructura." src="assets/servicios-claro.svg" width="100%"></picture>
 
-Me interesa especialmente el desarrollo web, backend, bases de datos, APIs, infraestructura y proyectos IoT.
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-oscuro.svg"><img alt="02 — Stack: TypeScript, React, Next.js, TanStack Start, Astro, Node.js, Python, PostgreSQL, Supabase, Claude, Gemini, ElevenLabs, LiveKit, n8n, Linux, Docker, Caddy, Tailscale, Vercel, Cloudflare, GitHub Actions y más." src="assets/stack-claro.svg" width="100%"></picture>
 
-## 📊 GitHub Stats
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/proyectos-oscuro.svg"><img alt="03 — Proyectos: lo que está en producción." src="assets/proyectos-claro.svg" width="100%"></picture>
+<a href="https://aidencol.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proyecto-aiden-oscuro.svg"><img alt="AiDEN — En producción. Plataforma web que sigue cada lote de un vivero de la siembra al despacho: producción, trazabilidad, costos y reportes, con un agente de IA y un vivero en 3D." src="assets/proyecto-aiden-claro.svg" width="50%"></picture></a><a href="https://aragons.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proyecto-aragon-oscuro.svg"><img alt="Aragon — En producción. El sitio de mi agencia de software: servicios con demos que funcionan, cómo trabajamos y contacto, con un campo de partículas que ordena lo que toca el cursor." src="assets/proyecto-aragon-claro.svg" width="50%"></picture></a>
+<a href="https://www.jordanco.club/projects/aragon-server"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proyecto-aragon-server-oscuro.svg"><img alt="Aragon Server — Activo. Mi propio servidor: diez servicios en contenedores con proxy inverso, acceso remoto privado por Tailscale y monitorización." src="assets/proyecto-aragon-server-claro.svg" width="50%"></picture></a><a href="https://www.jordanco.club"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proyecto-portafolio-oscuro.svg"><img alt="Portafolio — En producción. Terminal funcional, paleta ⌘K, casos de estudio y un retrato segmentado con MediaPipe. Es la versión larga de este perfil." src="assets/proyecto-portafolio-claro.svg" width="50%"></picture></a>
+<a href="https://leidymicolta.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proyecto-leidy-oscuro.svg"><img alt="Leidy Micolta — Cliente. Portafolio editorial por capítulos para una psicóloga de Popayán y Cali, con una versión de lectura indexable y SEO local." src="assets/proyecto-leidy-claro.svg" width="50%"></picture></a><a href="https://www.jordanco.club/projects/calendar"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proyecto-calendar-oscuro.svg"><img alt="Calendar — En desarrollo. Calendario personal con asistente en lenguaje natural: Gemini propone, el backend valida con Zod y solo entonces toca la base de datos." src="assets/proyecto-calendar-claro.svg" width="50%"></picture></a>
 
-![GitHub Stats Card](https://ghstats.dev/api/card?username=JordanAragon&theme=midnight&border_radius=10&custom_title=GitHub%20Stats&hide=followers%2Cprs%2Cissues)
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/trayectoria-oscuro.svg"><img alt="04 — Trayectoria: Ocean Industries (2026 — hoy), Federación Nacional de Cafeteros (2024 — 2025); Ingeniería de Sistemas (UNAD), Tecnólogo ADSO y Técnico en Mantenimiento (SENA)." src="assets/trayectoria-claro.svg" width="100%"></picture>
 
-## 🚀 About Me
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/actividad-oscuro.svg"><img alt="05 — Actividad en GitHub: contribuciones y lenguajes de los repositorios públicos." src="assets/actividad-claro.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JordanAragon/JordanAragon/output/serpiente-oscuro.svg"><img alt="Contribuciones del último año recorridas por una serpiente" src="https://raw.githubusercontent.com/JordanAragon/JordanAragon/output/serpiente-claro.svg" width="100%"></picture>
 
-Desarrollo páginas y aplicaciones web adaptadas a diferentes necesidades, buscando crear soluciones que permitan organizar información y optimizar procesos de forma sencilla. También trabajo con servidores y servicios para proyectos personales, integrando aplicaciones con bases de datos y APIs.
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/contacto-oscuro.svg"><img alt="06 — Contacto: hablemos." src="assets/contacto-claro.svg" width="100%"></picture>
+<a href="https://www.jordanco.club"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contacto-portafolio-oscuro.svg"><img alt="Portafolio: jordanco.club" src="assets/contacto-portafolio-claro.svg" width="25%"></picture></a><a href="https://aragons.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contacto-aragon-oscuro.svg"><img alt="Aragon: agencia de software" src="assets/contacto-aragon-claro.svg" width="25%"></picture></a><a href="https://www.linkedin.com/in/jordanaragon"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contacto-linkedin-oscuro.svg"><img alt="LinkedIn: in/jordanaragon" src="assets/contacto-linkedin-claro.svg" width="25%"></picture></a><a href="mailto:jordandavidaragon@outlook.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contacto-correo-oscuro.svg"><img alt="Correo: jordandavidaragon@outlook.com" src="assets/contacto-correo-claro.svg" width="25%"></picture></a>
 
-Mi formación en mantenimiento de equipos me permite complementar el desarrollo de software con conocimientos en hardware, sistemas e infraestructura. Actualmente continúo desarrollando proyectos propios y fortaleciendo mis habilidades como desarrollador.
-
-## 💻 What I Do
-
-- 🌐 Desarrollo de páginas y aplicaciones web
-- ⚙️ Desarrollo de sistemas y APIs
-- 🗄️ Diseño y gestión de bases de datos
-- 🖥️ Configuración y administración de servidores
-- 🐳 Implementación y administración de servicios mediante Docker
-- 🔧 Mantenimiento y configuración de equipos y sistemas
-- 🌱 Desarrollo de proyectos IoT y sistemas inteligentes
-
-## 🛠️ Tech Stack
-
-### Frontend
-
-![HTML5](https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5&logoColor=E34F26)
-![CSS3](https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=1572B6)
-![JavaScript](https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![TypeScript](https://img.shields.io/badge/TypeScript-000?style=for-the-badge&logo=typescript&logoColor=3178C6)
-![React](https://img.shields.io/badge/React-000?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-000?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4)
-
-### Backend
-
-![Node.js](https://img.shields.io/badge/Node.js-000?style=for-the-badge&logo=node.js&logoColor=339933)
-![Express](https://img.shields.io/badge/Express-000?style=for-the-badge&logo=express&logoColor=FFFFFF)
-
-### Databases
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000?style=for-the-badge&logo=postgresql&logoColor=4169E1)
-
-### DevOps & Infrastructure
-
-![Docker](https://img.shields.io/badge/Docker-000?style=for-the-badge&logo=docker&logoColor=2496ED)
-![Linux](https://img.shields.io/badge/Linux-000?style=for-the-badge&logo=linux&logoColor=FFFFFF)
-![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=F05032)
-![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=FFFFFF)
-
-### Other
-
-![Python](https://img.shields.io/badge/Python-000?style=for-the-badge&logo=python&logoColor=3776AB)
-![Arduino](https://img.shields.io/badge/Arduino-000?style=for-the-badge&logo=arduino&logoColor=00979D)
-
-## 📈 Most Used Languages
-
-![Top Languages](https://ghstats.dev/api/langs?username=JordanAragon&theme=midnight&custom_title=Most%20Used%20Languages&layout=vertical_list)
-
-## 🚀 Featured Projects
-
-### 🤖 AiDEN
-
-Sistema orientado a la optimización de procesos mediante inteligencia artificial y automatización.
-
-### 📦 estaCO
-
-Plataforma para la gestión y control de inventario, orientada a facilitar la organización de productos y procesos.
-
-### 🌱 GREENMIND
-
-Sistema de gestión inteligente para viveros que integra sensores, monitoreo, alertas y generación de reportes.
-
-### 🖥️ ARAGON SERVER
-
-Infraestructura personal self-hosted para administrar servicios, almacenamiento, multimedia y aplicaciones mediante Linux, Docker y tecnologías de red.
-
-## 📚 Currently Learning
-
-- Advanced JavaScript & TypeScript
-- Backend Development
-- REST APIs & Authentication
-- Database Design & PostgreSQL
-- Docker & Linux Administration
-- IoT & MQTT
-- Software Architecture
-- Cloud & Server Infrastructure
-
-## 🔗 Connect With Me
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white)](https://jordanaragon.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/jordanaragon/)
-[![Email](https://img.shields.io/badge/Email-000?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:jordandavidaragon@outlook.com)
-
----
-
-<p align="center">
-  <i>Building, learning and improving one project at a time.</i>
-</p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/cierre-oscuro.svg"><img alt="Construyo, aprendo y mejoro un proyecto a la vez." src="assets/cierre-claro.svg" width="100%"></picture>

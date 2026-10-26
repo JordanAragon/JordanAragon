@@ -1,0 +1,30 @@
+name: Serpiente de contribuciones
+
+on:
+  schedule:
+    - cron: "41 11 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/serpiente.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  generar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/serpiente-claro.svg?color_snake=#141414&color_dots=#EEEDE8,#C9C7C0,#9C9A93,#6E6C66,#3E3D3A
+            dist/serpiente-oscuro.svg?palette=github-dark&color_snake=#ECECE8&color_dots=#1B1F25,#2E333B,#4A4F59,#7A7E87,#C8CAD0
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "serpiente actualizada"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
