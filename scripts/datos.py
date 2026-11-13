@@ -15,7 +15,7 @@ TERMINAL = [
     ("out", "Empecé arreglando computadores y redes. Esa curiosidad por entender cómo funcionan las cosas me llevó a construirlas: hoy hago webs, agentes de IA y automatizaciones para clientes reales."),
     ("cmd", "cat ahora.txt"),
     ("item", "Líder técnico en Ocean Industries: webs, agentes de IA y automatización"),
-    ("item", "Construyendo AiDEN, gestión para viveros con un agente de IA"),
+    ("item", "Construyendo AiDEN: gestión de viveros con backend y agente de IA"),
     ("item", "Operando Aragon Server: diez servicios en mi propio servidor"),
     ("item", "Estudiando Ingeniería de Sistemas (UNAD) y ADSO (SENA)"),
     ("cmd", "open jordanco.club"),
@@ -42,8 +42,8 @@ STACK = [
 # (archivo, título, estado, tipo de estado, descripción, stack, url visible, enlace, letra de la matriz)
 PROYECTOS = [
     ("aiden", "AiDEN", "En producción", "vivo",
-     "Plataforma web que sigue cada lote de un vivero de la siembra al despacho: producción, trazabilidad, costos y reportes, con un agente de IA y un vivero en 3D.",
-     "React 19 · Supabase · WebGPU · Playwright", "aidencol.vercel.app", "https://aidencol.vercel.app", "A"),
+     "Gestión de viveros que sigue cada lote de la siembra al despacho, con backend en Supabase, trabajo sin conexión, un agente de IA que propone y actúa, y un vivero en 3D.",
+     "React 19 · Supabase · Claude · WebGPU", "aidenagro.site", "https://www.aidenagro.site", "A"),
     ("aragon", "Aragon", "En producción", "vivo",
      "El sitio de mi agencia de software: servicios con demos que funcionan, cómo trabajamos y contacto, con un campo de partículas que ordena lo que toca el cursor.",
      "Next.js 16 · React 19 · WebGPU · Canvas 2D", "aragons.vercel.app", "https://aragons.vercel.app", "R"),
